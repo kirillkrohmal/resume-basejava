@@ -1,5 +1,6 @@
 package com.urise;
 
+import com.urise.model.Resume;
 import com.urise.storage.ArrayStorage;
 
 import java.io.IOException;
@@ -11,7 +12,7 @@ public class MainTestArrayStorage {
     static final ArrayStorage ARRAY_STORAGE = new ArrayStorage();
 
     public static void main(String[] args) throws IOException {
-       /* Resume r1 = new Resume();
+        Resume r1 = new Resume();
         r1.uuid = "uuid1";
         Resume r2 = new Resume();
         r2.uuid = "uuid2";
@@ -40,6 +41,6 @@ public class MainTestArrayStorage {
         System.out.println("\nGet All");
         for (Resume r : ARRAY_STORAGE.getAll()) {
             System.out.println(r);
-        }*/
+        }
     }
 }

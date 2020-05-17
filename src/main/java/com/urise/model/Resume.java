@@ -4,10 +4,14 @@ package com.urise.model;
  * com.urise.webapp.model.Resume class
  */
 public class Resume {
-    private String uuid;
+    public String uuid;
 
     public Resume(String uuid) {
         this.uuid = uuid;
+    }
+
+    public Resume() {
+
     }
 
     public String getUuid(){
