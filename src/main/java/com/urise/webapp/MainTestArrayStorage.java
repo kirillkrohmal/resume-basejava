@@ -1,7 +1,7 @@
-package com.urise;
+package com.urise.webapp;
 
-import com.urise.model.Resume;
-import com.urise.storage.ArrayStorage;
+import com.urise.webapp.model.Resume;
+import com.urise.webapp.storage.ArrayStorage;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.urise.model;
+package com.urise.webapp.model;
 
 /**
  * com.urise.webapp.model.Resume class
